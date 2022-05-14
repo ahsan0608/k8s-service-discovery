@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: kubernetes-demo
-          image: anshuldevops/kubernetes-demo
+          image: ahsan0608/kubernetes-demo
           command: ["node", "index-db.js"]
           ports:
             - name: nodejs-port
